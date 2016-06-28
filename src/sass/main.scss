@@ -1,0 +1,83 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+
+#header h1 {
+	text-align: center;
+	font-size: 30px;
+	margin-top: 38px;
+	margin-bottom: 10px;
+}
+
+.profile {
+	display: inline-block;
+	width: 250px;
+	height: 350px;
+	margin-top: 35px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 35px;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.profile div {
+	text-align: center;
+	display: block;
+}
+
+.profile img {
+	margin-left: 61px;
+	margin-right: 61px;
+}
+
+.name {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.name span {
+	margin-top: 10px;
+	padding-bottom: 3px;
+	border-bottom: 2px solid #3fa86f;
+}
+
+.email {
+	margin-top: 10px;
+	margin-bottom: 17px;
+}
+
+.email span {
+	color: #c8c8c8;
+	font-size: 15px;
+}
+
+.birthday {
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+.address {
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+
+.phone {
+	font-size: 13px;
+	margin-bottom: 30px;
+}
+
+.password span {
+	text-transform: none;
+	color: transparent;
+	text-shadow: 0 0 10px #3fa86f;
+}
+
+.password span:hover {
+	color: #3fa86f;
+	text-shadow: none;
+	transition: ease .5s;
+}
