@@ -14,7 +14,7 @@ function profile(data) {
 	var dob   = new Date(data.dob * 1000);
 	var month = dob.getMonth() + 1;
 	var day   = dob.getDate();
-	var year  = dob.getYear() > 100
+	var year  = dob.getYear() >= 100
 	          ? "20" + (dob.getYear() - 100).toString()
 	          : "19" + (dob.getYear()).toString()
 	$("#main").append(
@@ -33,6 +33,7 @@ function profile(data) {
           	</div>
 	        <div class="address">
 	        	<span>${data.location.street}</span>
+	        	<br>
 	        	<span>${data.location.city}, ${data.location.state}, ${data.location.postcode}</span>
 	        </div>
 	        <div class="phone">
